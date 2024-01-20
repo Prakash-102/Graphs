@@ -1,5 +1,5 @@
 
-//Bipartite Graph:-
+//Toplogical Sorting:-
 import java.util.*;
 
 public class Topological {
@@ -26,8 +26,8 @@ public class Topological {
         graph[4].add(new Edge(4, 0));
         graph[4].add(new Edge(4, 1));
 
-        graph[3].add(new Edge(5, 0));
-        graph[3].add(new Edge(5, 2));
+        graph[5].add(new Edge(5, 0));
+        graph[5].add(new Edge(5, 2));
     }
 
     public static void toSort(ArrayList<Edge>[] graph) {
